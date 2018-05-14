@@ -46,7 +46,7 @@ public enum Fonts: String {
         case .segoeMDL2:
             return "Segoe MDL2 Assets"
         case .switchDiscount:
-            return "SwitchDiscount"
+            return "Switch-Discount"
         }
     }
     
