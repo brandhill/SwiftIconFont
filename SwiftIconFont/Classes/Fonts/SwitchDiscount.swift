@@ -8,6 +8,6 @@
 
 import Foundation
 
-public let SwitchDiscount: [String: String] = [
+public let switchDiscount: [String: String] = [
     "icon-ic_wishlist": "\u{e901}"
 ]

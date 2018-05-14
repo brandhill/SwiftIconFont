@@ -172,7 +172,7 @@ func getAttributedStringForRuntimeReplace(_ text: NSString, ofSize size: CGFloat
                     fontArr = materialIconArr
                 } else if fontPrefix == "sd" {
                     fontType = Fonts.switchDiscount
-                    fontArr = SwitchDiscount
+                    fontArr = switchDiscount
                 }
                 
                 
