@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1AF15B94209E196500E20C14 /* Segoe mdl2 assets.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AF15B93209E196500E20C14 /* Segoe mdl2 assets.ttf */; };
 		1AF15B96209E198D00E20C14 /* SegoeMDL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF15B95209E198D00E20C14 /* SegoeMDL2.swift */; };
+		AF737EC020A9EF480067D6AB /* SwitchDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF737EBF20A9EF480067D6AB /* SwitchDiscount.swift */; };
+		AF737EC220A9F00E0067D6AB /* Switch-Discount.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF737EC120A9F00E0067D6AB /* Switch-Discount.ttf */; };
 		DA223AA91F160FAC005915D0 /* SwiftIconFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA223AA81F160FAC005915D0 /* SwiftIconFontView.swift */; };
 		DA639C421F62B959004810A6 /* SwiftIconStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA639C411F62B959004810A6 /* SwiftIconStepper.swift */; };
 		DA8D9D151D345A3800F5E693 /* SwiftIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8D9D141D345A3800F5E693 /* SwiftIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,6 +63,8 @@
 /* Begin PBXFileReference section */
 		1AF15B93209E196500E20C14 /* Segoe mdl2 assets.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe mdl2 assets.ttf"; sourceTree = "<group>"; };
 		1AF15B95209E198D00E20C14 /* SegoeMDL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegoeMDL2.swift; sourceTree = "<group>"; };
+		AF737EBF20A9EF480067D6AB /* SwitchDiscount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDiscount.swift; sourceTree = "<group>"; };
+		AF737EC120A9F00E0067D6AB /* Switch-Discount.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switch-Discount.ttf"; sourceTree = "<group>"; };
 		DA223AA81F160FAC005915D0 /* SwiftIconFontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIconFontView.swift; sourceTree = "<group>"; };
 		DA639C411F62B959004810A6 /* SwiftIconStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIconStepper.swift; sourceTree = "<group>"; };
 		DA8D9D111D345A3800F5E693 /* SwiftIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +167,7 @@
 		DA8D9D2B1D345A4500F5E693 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AF737EC120A9F00E0067D6AB /* Switch-Discount.ttf */,
 				1AF15B93209E196500E20C14 /* Segoe mdl2 assets.ttf */,
 				DA8D9D2C1D345A4500F5E693 /* FontAwesome.ttf */,
 				DA8D9D2D1D345A4500F5E693 /* Ionicons.ttf */,
@@ -230,6 +235,7 @@
 				DA8D9D411D345A4900F5E693 /* Octicon.swift */,
 				DA8D9D491D345A4900F5E693 /* ThemifyIcon.swift */,
 				1AF15B95209E198D00E20C14 /* SegoeMDL2.swift */,
+				AF737EBF20A9EF480067D6AB /* SwitchDiscount.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 				DA8D9D391D345A4500F5E693 /* themify.ttf in Resources */,
 				DA8D9D331D345A4500F5E693 /* FontAwesome.ttf in Resources */,
 				1AF15B94209E196500E20C14 /* Segoe mdl2 assets.ttf in Resources */,
+				AF737EC220A9F00E0067D6AB /* Switch-Discount.ttf in Resources */,
 				DA8D9D361D345A4500F5E693 /* MaterialIcons-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +369,7 @@
 				DA8D9D581D345A4900F5E693 /* ThemifyIcon.swift in Sources */,
 				DAD008341F90D2FC00D4FC34 /* SwiftIconFont+String.swift in Sources */,
 				DA8D9D551D345A4900F5E693 /* SwiftIconTabBarItem.swift in Sources */,
+				AF737EC020A9EF480067D6AB /* SwitchDiscount.swift in Sources */,
 				DA8D9D561D345A4900F5E693 /* SwiftIconTextField.swift in Sources */,
 				DAD008211F90D16500D4FC34 /* SwiftIconFont+UIImage.swift in Sources */,
 				DA8D9D4B1D345A4900F5E693 /* FontLoader.swift in Sources */,

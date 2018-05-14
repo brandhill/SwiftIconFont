@@ -25,6 +25,7 @@ public enum Fonts: String {
     case mapIcon = "map-icons"
     case materialIcon = "MaterialIcons-Regular"
     case segoeMDL2 = "Segoe mdl2 assets"
+    case switchDiscount = "Switch-Discount"
     
     var fontName: String {
         switch self {
@@ -44,6 +45,8 @@ public enum Fonts: String {
             return "Material Icons"
         case .segoeMDL2:
             return "Segoe MDL2 Assets"
+        case .switchDiscount:
+            return "SwitchDiscount"
         }
     }
     
@@ -100,6 +103,9 @@ func getAttributedString(_ text: NSString, ofSize size: CGFloat) -> NSMutableAtt
         } else if fontPrefix == "ma" {
             fontType = Fonts.materialIcon
             fontArr = materialIconArr
+        } else if fontPrefix == "sm" {
+            fontType = Fonts.segoeMDL2
+            fontArr = segoeMDL2
         } else if fontPrefix == "sm" {
             fontType = Fonts.segoeMDL2
             fontArr = segoeMDL2
@@ -164,9 +170,9 @@ func getAttributedStringForRuntimeReplace(_ text: NSString, ofSize size: CGFloat
                 } else if fontPrefix == "ma" {
                     fontType = Fonts.materialIcon
                     fontArr = materialIconArr
-                } else if fontPrefix == "sm" {
-                    fontType = Fonts.segoeMDL2
-                    fontArr = segoeMDL2
+                } else if fontPrefix == "sd" {
+                    fontType = Fonts.switchDiscount
+                    fontArr = SwitchDiscount
                 }
                 
                 
@@ -244,6 +250,8 @@ func GetFontTypeWithSelectedIcon(_ icon: String) -> Fonts {
             fontType = Fonts.materialIcon
         } else if fontPrefix == "sm" {
             fontType = Fonts.segoeMDL2
+        } else if fontPrefix == "sd" {
+            fontType = Fonts.switchDiscount
         }
     }
     
